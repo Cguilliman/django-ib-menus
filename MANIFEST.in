@@ -1,0 +1,4 @@
+MANIFEST.ininclude README.md
+include LICENSE
+recursive-include menus/locale *
+recursive-exclude * *.pyc

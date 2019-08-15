@@ -1,0 +1,21 @@
+[run]
+source = seo
+branch = 1
+
+[report]
+omit = 
+    menus/migrations/*
+    menus/tests/*
+    menus/admin*
+    menus/apps.py
+    menus/urls.py
+    menus/*/__init__.py
+    .venv/*
+    env/*
+    setup.py
+include = seo/*
+ignore_errors = True
+exclude_lines =
+    pragma: no cover
+    raise NotImplementedError
+    if __name__ == .__main__.:

@@ -1,0 +1,2 @@
+django~>1.11
+django-modeltranslation~>0.13.3
